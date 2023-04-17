@@ -568,10 +568,10 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+            Name: '[船长] 店铺特效关注有礼-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_wxShopGift.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_wxShopGiftId',
             ],
             TimeOut: 0,
             Interval: 0,
@@ -579,10 +579,10 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+            Name: '[船长] 关注店铺有礼-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_wxShopFollow.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_wxShopFollowId',
             ],
             TimeOut: 0,
             Interval: 0,
@@ -590,10 +590,10 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+            Name: '[船长] 完善信息有礼-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_wxCompleteInfo.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_wxCompleteInfoId',
             ],
             TimeOut: 0,
             Interval: 0,
@@ -601,10 +601,10 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+            Name: '[船长] 加购有礼-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_wxCollectionActivity.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_wxCollectionActivityUrl',
             ],
             TimeOut: 0,
             Interval: 0,
@@ -612,10 +612,10 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+            Name: '[船长] 盖楼有礼-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_wxBulidActivity.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_wxBulidActivityId',
             ],
             TimeOut: 0,
             Interval: 0,
@@ -623,10 +623,10 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+            Name: '[船长] 生日等级礼包-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_wxBirthGifts.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_wxBirthGiftsId',
             ],
             TimeOut: 0,
             Interval: 0,
@@ -634,32 +634,43 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+            Name: '[船长] 微定制组队瓜分-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_wdz.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_wdz_activityId',
             ],
             TimeOut: 0,
             Interval: 0,
             RunPanel: [0],
             Disable: false,
         },
-        {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+         {
+            Name: '[船长] 关注有礼-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_shopFollowGift.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_shopFollowGiftId',
             ],
             TimeOut: 0,
             Interval: 0,
             RunPanel: [0],
             Disable: false,
         },
-        {
-            Name: '[船长] M打豆豆',
-            Script: 'walle1798_WALL.E/m_jd_wx_dadoudou.js',
+         {
+            Name: '[船长] 店铺会员礼包-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_shopCollectGift.py',
             ListenEnv: [
-                'M_WX_DADOUDOU_URL',
+                'jd_shopCollectGiftId',
+            ],
+            TimeOut: 0,
+            Interval: 0,
+            RunPanel: [0],
+            Disable: false,
+        },
+         {
+            Name: '[船长] 店铺抽奖-JK',
+            Script: 'HarbourJ_HarbourToulu_main/jd_dpcj.py',
+            ListenEnv: [
+                'DPCJID',
             ],
             TimeOut: 0,
             Interval: 0,
