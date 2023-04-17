@@ -168,6 +168,17 @@ let RspyList = {
             Disable: false,
         },
         {
+            Name: '[KR] 入会开卡领取礼包',
+            Script: 'KingRan_KR/jd_OpenCard_Force.js',
+            ListenEnv: [
+                'VENDER_ID',
+            ],
+            TimeOut: 0,
+            Interval: 0,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
             Name: '[KR] 微定制瓜分福袋-加密',
             Script: 'KingRan_KR/jd_wdzfd.js',
             ListenEnv: [
