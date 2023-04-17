@@ -644,7 +644,7 @@ let RspyList = {
             RunPanel: [0],
             Disable: false,
         },
-         {
+        {
             Name: '[船长] 关注有礼-JK',
             Script: 'HarbourJ_HarbourToulu_main/jd_shopFollowGift.py',
             ListenEnv: [
@@ -655,7 +655,7 @@ let RspyList = {
             RunPanel: [0],
             Disable: false,
         },
-         {
+        {
             Name: '[船长] 店铺会员礼包-JK',
             Script: 'HarbourJ_HarbourToulu_main/jd_shopCollectGift.py',
             ListenEnv: [
@@ -666,7 +666,7 @@ let RspyList = {
             RunPanel: [0],
             Disable: false,
         },
-         {
+        {
             Name: '[船长] 店铺抽奖-JK',
             Script: 'HarbourJ_HarbourToulu_main/jd_dpcj.py',
             ListenEnv: [
