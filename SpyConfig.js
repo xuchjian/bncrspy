@@ -146,17 +146,6 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '[KR] 收藏大师-幸运抽奖',
-            Script: 'KingRan_KR/jd_txzj_lottery.js',
-            ListenEnv: [
-                'jd_lottery_activityUrl',
-            ],
-            TimeOut: 0,
-            Interval: 0,
-            RunPanel: [0],
-            Disable: false,
-        },
-        {
             Name: '[KR] 邀请入会赢好礼（京耕）',
             Script: 'KingRan_KR/jd_jinggeng_showInviteJoin.js',
             ListenEnv: [
